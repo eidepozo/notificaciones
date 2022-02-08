@@ -27,11 +27,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  firebase_core: ^1.12.0
+  firebase_messaging: ^11.2.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,7 +61,7 @@ flutter:
   # section here, in this "flutter" section. Each entry in this list should
   # have a "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
-  # example:
+  # elliotide:
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -83,5 +86,5 @@ flutter:
   # identifiers, which may be completely independent or the same as these.
   module:
     androidX: true
-    androidPackage: com.example.notificaciones
-    iosBundleIdentifier: com.example.notificaciones
+    androidPackage: com.elliotide.notificaciones
+    iosBundleIdentifier: com.elliotide.notificaciones
